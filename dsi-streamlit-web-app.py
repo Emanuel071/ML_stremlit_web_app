@@ -11,8 +11,6 @@ import joblib
 
 # load our model pipeline object 
 # model = joblib.load('C:/Users/Emanuel/Documents/GitHub/MachineLearningWork/Projects/Streamlit/model.joblib')
-# mac version 
-# model = joblib.load('C:/Users/Emanuel/Documents/GitHub/MachineLearningWork/Projects/Streamlit/model.joblib')
 model = joblib.load('model.joblib')
 
 # add title and instructions 
