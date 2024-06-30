@@ -1,5 +1,4 @@
 streamlit==0.76.0
---no-binary=scikit-learn
 scikit-learn==1.0.2
 pandas==1.4.4
 joblib==1.1.1
