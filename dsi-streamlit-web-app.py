@@ -13,8 +13,14 @@ import joblib
 # model = joblib.load('C:/Users/Emanuel/Documents/GitHub/MachineLearningWork/Projects/Streamlit/model.joblib')
 model = joblib.load('model.joblib')
 
+
 # add title and instructions 
 st.title('Purchase Prediction Model')
+st.subheader('What is this application?')
+st.subheader('A project created with the help of Data Science Infinity aiming for comfortability with both streamlit and how to have the web app sit on top of a locally grown machine learned model. Enjoy :)')
+st.subheader('')
+st.subheader('This project demonstrates is how seemless and quick a recommendation can be made to the user much like how a recommendation is performed on a purchasing website such as Amazon, Apple, Temu and etc...')
+st.subheader('')
 st.subheader('Enter customer information and submit for likelihood to purchase')
 
 # age input form 
